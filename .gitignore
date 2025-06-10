@@ -1,31 +1,8 @@
-# Build artifacts - SPM/Xcode
-.build/
-DerivedData/
-.swiftpm/
-*.xcworkspace
-Package.resolved  # Para librerías, mejor ignorar[1][4]
-
-# Artefactos de compilación C embebidas
-Sources/**/build/
-Sources/**/bin/
-Sources/**/obj/
-Sources/**/*.o
-Sources/**/*.a
-Sources/**/*.dylib
-Sources/**/CMakeFiles/
-Sources/**/CMakeCache.txt
-Sources/**/cmake_install.cmake
-Sources/**/Makefile[3]
-
-# Configuraciones específicas de IDEs
-.vscode/
-.idea/
-*.xcodeproj/
-xcuserdata/
-*.xcscmblueprint
-
-# Archivos temporales y del sistema
 .DS_Store
-*~
-*.swp
-*.swo
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
