@@ -1,8 +1,40 @@
-.DS_Store
-/.build
-/Packages
+# Archivos y carpetas generados por Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Archivos y carpetas generados por Xcode
+*.xcodeproj
+*.xcworkspace
 xcuserdata/
 DerivedData/
-.swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+*.xcscmblueprint
+
+# Archivos generados por macOS
+.DS_Store
+
+# Archivos temporales y de backup
+*~
+\#*
+.\#*
+.*.sw[nop]
+
+# Archivos de cobertura y profiling
+*.profraw
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+*.pyc
+
+# Archivos y carpetas generados por la compilación de librerías C embebidas
+Sources/**/build/
+Sources/**/bin/
+Sources/**/obj/
+Sources/**/CMakeFiles/
+Sources/**/Makefile
+Sources/**/CMakeCache.txt
+Sources/**/cmake_install.cmake
+Sources/**/lib/
+Sources/**/tmp/
+Sources/**/out/
