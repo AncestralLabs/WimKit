@@ -164,10 +164,27 @@ version-to-version changes can be found in the [NEWS file](NEWS.md).
 # Notices
 
 WimKit is free software that comes with NO WARRANTY, to the extent permitted by
-law.  For full details, see the [COPYING file](COPYING).
+law.
 
 Bug reports, suggestions, and other contributions are appreciated and should be
 posted to [the forums](https://wimlib.net/forums/).
 
 WimKit is independently developed and does not contain any code, data, or files
 copyrighted by Microsoft.  It is not known to be affected by any patents.
+
+# Copying
+
+WimKit (the Swift Package fork of the library portion of wimlib) may be 
+redistributed and/or modified under the terms of the GNU Lesser General Public 
+License; either version 3 of the License, or (at your option) any later version.
+A copy of this license can be found in the file LICENSE.
+
+There is NO WARRANTY, to the extent permitted by law.
+
+Originally the libwim library can optionally be linked to the third-party library 
+"libntfs-3g", which is licensed under the GPL. Usually the GPL is interpreted in 
+a way that means that any binary that uses a GPL library must be licensed under 
+the GPL as well, not (for example) the LGPL. Nevertheless, WimKit library use 
+exclusively the LGPL option cause does not link at all to the "libntfs-3g" 
+library.
+
